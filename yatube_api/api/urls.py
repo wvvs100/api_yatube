@@ -3,7 +3,7 @@ from rest_framework.routers import DefaultRouter
 from rest_framework.authtoken.views import obtain_auth_token
 
 from .views import CommentViewSet, GroupViewSet, PostViewSet
-
+testing = 0
 router_v1 = DefaultRouter()
 router_v1.register('posts',PostViewSet,basename='posts')
 router_v1.register('groups',GroupViewSet,basename='groups')

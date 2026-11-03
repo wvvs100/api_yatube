@@ -1,6 +1,6 @@
 from http import HTTPStatus
 
-
+testing = 0
 class TestAuthAPI:
 
     def test_auth(self, client, user, password):
